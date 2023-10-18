@@ -282,10 +282,6 @@ main{
    
 }
 
-.foto-barbeiro img{
-    z-index: 1;
-}
-
 .foto-barbeiro{
     display: contents;
 }
@@ -365,6 +361,7 @@ footer{
 
 /* Responsividade para tela mobiles */
 @media screen and (max-width: 450px) {
+    /*header*/
     nav #botao{
         width: 139px;
     }
@@ -394,15 +391,43 @@ footer{
     #menu{
         display: none;
     }
-
+/*main*/
     .conteudo-apresentacao{
         width: 100%;
     }
 
-    .cards{
-       width: 100%;
+    .sobre{
+        flex-direction: column;
     }
 
+    #imagem {
+        width: 90%;
+    }
 
+    #sobre {
+        width: 90%;
+        align-items: center;
+    }
 
+    #sobre h2{
+        text-align: center;
+    }
+
+    .serviços {
+        height: 226px;
+    }
+
+    .serviços h2 {
+        width: 90%;
+    }
+
+    .cards{
+        width: 100%;
+        height: 30%;
+        display: none;
+     }
+
+     .unidade-conteudo h1{
+        text-align: center;
+     }
 }
