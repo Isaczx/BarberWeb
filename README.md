@@ -5,5 +5,5 @@ O intuito desse projeto é ajudar os barbeiros em seus negocios atraves da utili
 
 O mesmo conta com os seguintes elementos.
 
-Site institucuinal:
+Site institucional:
 
