@@ -1,15 +1,18 @@
 const menu = document.querySelector(".material-symbols-outlined");
 const opcaos = document.querySelector("#menu");
-const opcaos2 = document.querySelector("#menuh");
+const menuh = document.querySelector("#menuh");
+const lista = document.querySelector("#menuh ul");
 
 console.log(opcaos);
 
 
 menu.addEventListener("click", () =>{
 
-    if (opcaos2.style.display == "block") {
-        opcaos2.style.display = "none";
+    if (menuh.style.display == "block") {
+        menuh.style.display = "none";
+        lista.style.display = "none";
     }else{
-     opcaos2.style.display = "block";
+        menuh.style.display = "block";
+        lista.style.display = "flex";
     }
 })

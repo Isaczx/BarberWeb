@@ -65,13 +65,17 @@ nav{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background-color: var(--cor-primaria);
 }
 
 #menuh ul{
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--cor-primaria);
 }
 
 #botaos{
