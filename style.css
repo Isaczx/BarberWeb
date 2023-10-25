@@ -274,7 +274,6 @@ main{
 }
 
 .card-equipe h2{
-    z-index: 2;
     position:absolute ;
     color: var(--cor-terciaria);
     font-size: 25px;
@@ -284,6 +283,7 @@ main{
 
 .foto-barbeiro{
     display: contents;
+    width: 100%;
 }
 
 .equipe-contato img:hover{
@@ -433,7 +433,22 @@ footer{
      }
 
      .foto-barbeiro img{
-        width: 318px;
+        width: 80%;
         height: 350px;
+        border-radius: 10px;
      }
+}
+
+@media screen and (max-width: 375px) {
+
+    #sobre h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    #sobre h3{
+        font-size: 16px;
+    }
 }
