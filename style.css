@@ -398,6 +398,7 @@ footer{
 
     .sobre{
         flex-direction: column;
+        height: 650px;
     }
 
     #imagem {
