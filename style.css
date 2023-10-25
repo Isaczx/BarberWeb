@@ -360,7 +360,7 @@ footer{
 
 
 /* Responsividade para tela mobiles */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     /*header*/
     nav #botao{
         width: 139px;
