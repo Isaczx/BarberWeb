@@ -431,4 +431,9 @@ footer{
      .unidade-conteudo h1{
         text-align: center;
      }
+
+     .foto-barbeiro img{
+        width: 318px;
+        height: 350px;
+     }
 }
